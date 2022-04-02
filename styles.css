@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+button {
+    width:200px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:20px;
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+form {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: 	hsla(0, 0%, 0%, 0.103)	;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: smaller;
+}
+
+.mainPage {
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.leftSide {
+    display:flex;
+    background-image: url("luckyCat.jpg");
+    height:800px;
+    width:600px;
+}
+
+.rightSide {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:500px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.accountPrompt {
+    margin-top:15px;
+    font-size: .7rem;
+}
+
+.zLogo {
+    margin-top:100px;
+    width:600px;
+    background-color: 	hsla(0, 0%, 0%, 0.4)	;    
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: inset;
+}
